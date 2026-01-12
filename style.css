@@ -1,15 +1,19 @@
-body {
-    font-family: Roboto;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
-    /* font: Roboto; */
     font-size: 22px;
     color: wheat;
     background-color: #233a5b;
     display: flex;
     justify-content: space-around;
+}
+
+.logo {
+    font-weight: 800;
 }
 
 .links ul {
