@@ -121,3 +121,39 @@ a {
     font-weight: 800;
     align-self: flex-end;
 }
+
+.sec4 {
+    background-color: #3882F6;
+    margin: 50px 150px;
+    padding: 50px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+.call-text {
+    color: rgb(215, 211, 211);
+}
+.call-header {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+.signup {
+    align-self: flex-end;
+}
+.signup button{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #1b2e48;
+    padding: 30px;
+}
