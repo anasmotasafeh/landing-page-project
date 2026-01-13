@@ -51,7 +51,6 @@ a {
 .image1 {
     display: flex;
     width: 350px;
-    /* height: 150px; */
     align-self: stretch;
     color: #ffffff;
     background-color: #9f9f9f;
@@ -66,4 +65,34 @@ a {
     background-color: #2875e1;
     border-color: #2875e1;
     
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px;
+}
+.contaner-sec2 {
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+}
+.image-sec2 {
+    height: 130px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(42, 83, 230);
+    margin-bottom: 5px;
+}
+.info-text {
+    color: #666565;
 }
